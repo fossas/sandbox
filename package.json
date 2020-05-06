@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "uglify-js": "1.0.6"
+    "uglify-js": "1.0.6",
+    "@undefined/@bugsnag/js": "5.2.0"
   }
 }
