@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <!-- this is not a complete pom, this is for testing dependencies only -->
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.fossa</groupId>
+  <artifactId>fossabot-sandbox</artifactId>
+  <version>1.0</version>
+  <packaging>jar</packaging>
+
+  <name>fossabot-sandbox</name>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.10</version>
+    </dependency>
+    <dependency>
+      <groupId>io.netty</groupId>
+      <artifactId>netty</artifactId>
+      <version>4.0.0</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
+      <version>1.2.0</version>
+    </dependency>
+  </dependencies>
+
+</project>
